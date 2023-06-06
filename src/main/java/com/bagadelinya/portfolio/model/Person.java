@@ -10,5 +10,13 @@ public class Person {
     private String subject;
     private String message;
 
-
+    @Override
+    public String toString() {
+        return
+                " First Name= " + firstName + "\n" +
+                " Last Name= " + lastName + "\n" +
+                " Email= " + email + "\n" +
+                " Subject= " + subject + "\n" +
+                " Message= " + message + "\n" ;
+    }
 }
